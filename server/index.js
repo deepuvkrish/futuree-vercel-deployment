@@ -2,19 +2,19 @@ const express = require('express')
 const app = express()
 const port = 5000
 
-// const bcrypt = require("bcrypt")
-// var cors = require('cors')
-// const jwt = require("jsonwebtoken")
-// var low = require("lowdb");
-// var FileSync = require("lowdb/adapters/FileSync");
-// var adapter = new FileSync("./database.json");
-// var db = low(adapter);
+const bcrypt = require("bcrypt")
+var cors = require('cors')
+const jwt = require("jsonwebtoken")
+var low = require("lowdb");
+var FileSync = require("lowdb/adapters/FileSync");
+var adapter = new FileSync("./database.json");
+var db = low(adapter);
 
-// const jwtSecretKey = 'dsfdsfsdfdsvcsvdfgefg'
+const jwtSecretKey = 'dsfdsfsdfdsvcsvdfgefg'
 
-// app.use(cors())
-// app.use(express.json())
-// app.use(express.urlencoded({ extended: true }))
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 
 
