@@ -1,0 +1,26 @@
+@media only screen and (min-width:768px){
+    .profile-content{
+        margin-top: 30px;
+        display: flex;
+        overflow: hidden;
+        padding-inline-start: 50px;
+    }
+    .userProfile{
+        width:200px;
+        height:200px;
+        border-radius: 20px;
+    }
+    .profile-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-details li{
+        list-style: none;
+        color: rgb(206, 206, 206);
+    }
+    .profile-details span{
+        font-weight: 800;
+        color: white;
+    }
+
+}

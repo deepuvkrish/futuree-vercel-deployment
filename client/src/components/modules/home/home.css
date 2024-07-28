@@ -1,0 +1,256 @@
+@media only screen and (max-width:768px){
+
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    .landing{
+        background-color: hsl(218, 41%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+          radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    input[type='button'] {
+        border: none;
+        cursor: pointer;
+      }
+
+    .inputButton{
+        background-color: hsl(218, 41%, 15%) !important;
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(219, 50%, 27%) 15%,
+            hsl(218, 45%, 23%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+          radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%) !important;
+        border-radius: 50px !important;
+        font-size: 18px !important;
+        padding: 12px 50px;
+        color: white;
+    }
+    .inputButton:hover{
+        border: 1px solid grey;
+    }
+    .signout{
+        background: transparent;
+        border: none;
+    }
+
+    .log-box{
+        height: 290px;
+        width: 290px;
+        border: 1px solid rgba(128, 128, 128, 0.349);
+        border-radius: 50%;
+        background-color: hsla(0, 0%, 0%, 0.7) !important;
+        backdrop-filter: saturate(200%) blur(25px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .logicon{
+        position: absolute;
+        color: "#ffffff";
+        right: 15%;
+    }
+    .futuralogo{
+        position: relative;
+        width: 40%;
+    }
+    .lotties{
+        position: absolute;
+        width: 20%;
+    }
+    @keyframes airplane{
+        0%{
+            translate: -710px -340px;
+        }
+        100%{
+            translate: 700px -340px;
+        }
+    }
+    .log-lotties{
+        position: absolute;
+        width: 40%;
+        right: 61px;
+    }
+    .bodyContent{
+        width: 100vw;
+        height: 100%;
+        color: white;
+        min-height: 100vh;
+        padding-top: 50px;
+        background-color: hsl(218, 41%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+          radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+    }
+
+
+
+
+    .navSection{
+        display: flex;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.6);
+        border: 0px 0px 20px 20px;
+        height: 50px;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+    .navSectionLinks{
+        text-decoration: none;
+        color: white;
+    }
+    .navSectionLinks:hover{
+        color: rgb(219, 110, 255);
+    }
+    
+
+
+    .navLinks{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+    .profileCard {
+        position: relative;
+        right:40px;
+    }
+    .useravatars{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .profileCard .profile {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .profileCard .profile img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .profileCard .menu {
+        position: absolute;
+        top: 120px;
+        right: -10px;
+        padding: 10px 10px;
+        background: #fff;
+        width: 200px;
+        box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        transition: 0.5s;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .profileCard .menu.active {
+        top: 80px;
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      .profileCard .menu::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        right: 28px;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        transform: rotate(45deg);
+      }
+      .profileCard .menu h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        padding: 20px 0;
+        font-weight: 500;
+        color: #555;
+        line-height: 1.5em;
+      }
+      
+      .profileCard .menu h3 span {
+        font-size: 14px;
+        color: #696969;
+        font-weight: 300;
+      }
+      .profileCard .menu ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .profileCard .menu ul li {
+        list-style: none;
+        padding: 16px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.085);
+        display: flex;
+        align-items: center;
+      }
+      
+      .profileCard .menu ul li svg {
+        max-width: 20px;
+        margin-right: 10px;
+        opacity: 0.5;
+        transition: 0.5s;
+      }
+      
+      .profileCard .menu ul li:hover svg {
+        opacity: 1;
+      }
+      
+      .profileCard .menu ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #555;
+        font-weight: 500;
+        transition: 0.5s;
+      }
+      
+      .profileCard .menu ul li:hover a {
+        color: #ff5d94;
+      }
+      
+}
