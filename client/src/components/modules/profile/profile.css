@@ -1,9 +1,24 @@
+
 @media only screen and (min-width:768px){
     .profile-content{
         margin-top: 30px;
         display: flex;
+        flex-direction: column;
         overflow: hidden;
-        padding-inline-start: 50px;
+        width: 100%;
+        justify-content: center;
+    }
+    .profile-title{
+        padding-inline: 80px;
+
+    }
+    .profile-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .profile-photo{
+        margin-right: 20px;
     }
     .userProfile{
         width:200px;
@@ -13,6 +28,7 @@
     .profile-details{
         display: flex;
         flex-direction: column;
+        width: 75%;
     }
     .profile-details li{
         list-style: none;
@@ -21,6 +37,18 @@
     .profile-details span{
         font-weight: 800;
         color: white;
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: var(--mdb-list-group-item-padding-y) var(--mdb-list-group-item-padding-x);
+        color: var(--mdb-list-group-color);
+        background-color: #00000021 !important;
+        border: var(--mdb-list-group-border-width) solid var(--mdb-list-group-border-color);
+    }
+    .badge-success {
+        background-color: #029620 !important;
+        color: #0d6832;
     }
 
 }

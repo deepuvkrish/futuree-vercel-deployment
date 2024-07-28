@@ -1,0 +1,190 @@
+@media only screen and (min-width:768px){
+    .wedd-content{
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    .wed-options{
+        background: white;
+        margin-inline: 50px;
+        margin-block: 50px;
+        color:black;
+    }
+    .wed-cards{
+        width: 300px;
+        overflow: hidden;
+
+    }
+    .wedCategories{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-inline: 110px;
+        justify-content: space-around;
+        
+    }
+    .wedCat{
+        width: 575px;
+        height: 140px;
+        margin: 10px;
+    }
+    .cat-lavender{
+        background: #d7d7ff;
+    }
+    .cat-peach{
+        background: peachpuff;
+    }
+    .cat-tangerine{
+        background: rgb(255, 182, 182);
+    }
+    .cat-green{
+        background: rgb(219, 255, 196);
+
+    }
+    .wedCate-details{
+        width: 60%;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;   
+    }
+    .webCateTopic{
+        font-size: 20px;
+        color: rgb(63, 63, 63);
+    }
+    .webCateSub{
+        font-size: 12px;
+        color: rgb(79, 79, 79);
+    }
+    .wedCate-img{
+        width:40%;
+        background-size: cover;
+        border-radius: 80px 0px 0px 80px;
+
+    }
+    .img-dest{
+        background-image: url('../../../assets//images/destweed.jpeg');
+        background-position: bottom;
+    }
+    .img-jewel{
+        background-image: url('../../../assets//images/jewels.jpg');
+        background-position: 0px -87px;
+    }
+    .img-food{
+        background-image: url('../../../assets//images/foods.jpg');
+        background-position: 0px -87px;
+    }
+    .img-cloth{
+        background-image: url('../../../assets//images/wed.jpg');
+        background-position: 0px -87px;
+    }
+    .wedCate-img img{
+        max-height:120px;
+        object-fit: contain;
+    }
+    .wedLists{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: var(--mdb-list-group-item-padding-y) var(--mdb-list-group-item-padding-x);
+        color: var(--mdb-list-group-color);
+        background-color: var(--mdb-list-group-bg);
+        border: var(--mdb-list-group-border-width) solid var(--mdb-list-group-border-color);
+    }
+    .list-group-light .active {
+        border: none;
+        border-radius: var(--mdb-list-group-light-active-border-radius);
+        background-color: rgb(191, 233, 255) !important;
+        color: var(--mdb-list-group-light-active-color);
+    }
+    .wedding{
+        display: flex;
+        position: relative;
+        height: 250px;
+        width: 100%;
+    }
+    .plant{
+        position: absolute;
+        width: 10%;
+        bottom: 0px;
+        z-index:2;
+    }
+    .plantwo{
+        position: absolute;
+        width: 20%;
+        top: 0px;
+        right: 0px;
+        z-index:2;
+
+    }
+    .couples{
+        position: absolute;
+        width: 20%;
+        bottom:0;
+        right: 50%;
+        z-index:2;
+
+    }
+    .flower{
+        position: absolute;
+        width: 20%;
+        bottom:0;
+        right: 50%;
+        z-index:2;
+
+    }
+    .chips{
+        border: 1px solid #b4b4b4ad;
+    }
+    .chips span{
+        color: #4a4a4a;
+        font-size: 13px;
+        margin-inline: 5px;
+    }
+    .chips svg{
+        color: #5c5c5c;
+        margin-inline: 10px;
+    }
+    .chips img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .chip-destination{
+        background: #e4f5e2;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+    .chip-veg{
+        background: #feffdc;
+        padding: 5px;
+        border-radius: 20px;   
+    }
+    .chip-nonveg{
+        background: #ffe5e0;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+    .chip-drinks{
+        background: #f1dff8;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+    .chip-temple{
+        background: #fdffe6;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+    .chips-custom{
+        height: 45px !important;
+        align-items: center;
+    }
+
+}
+    

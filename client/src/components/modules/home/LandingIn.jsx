@@ -17,14 +17,15 @@ const LandingIn = (props) => {
         if (profile == 'menu') setProfile('menu active')
         else setProfile('menu')
     }
+
     return (
-        <div className="bodyContent">
-            {/* <Navigation /> */}
+        <div className="bodyContent" >
             <div className="navSection">
+
                 <div className="navLinks">
-                    <NavLink to='/' className="navSectionLinks">Home</NavLink>
+                    <NavLink to='/homein' className="navSectionLinks">Home</NavLink>
                     <NavLink to='/shop' className="navSectionLinks">Shop</NavLink>
-                    <navLink to='/wed' className="navSectionLinks">Wedding</navLink>
+                    <NavLink to='/wed' className="navSectionLinks">Wedding</NavLink>
                 </div>
                 <div className="profileCard">
                     <div className="profile" onClick={menuToggle}>
@@ -48,6 +49,8 @@ const LandingIn = (props) => {
                     </div>
                 </div>
             </div>
+
+
             <Outlet />
         </div>
     )

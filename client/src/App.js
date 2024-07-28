@@ -8,26 +8,31 @@ import Home from './components/modules/home/Home';
 import Wed from './components/modules/wedding/Wed';
 import Shop from './components/modules/shopping/Shop';
 import Profile from './components/modules/profile/Profile';
+import Homein from './components/modules/home/Homein';
 
+import { PrimeReactProvider } from "primereact/api";
 function App() {
 
   const [loggedIn, setLoggedIn] = useState(false)
   const [email, setEmail] = useState('')
   return (
-    <div className="App">
+    <PrimeReactProvider value={{ unstyled: true }}>
+      <div className="App">
 
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />}>
-            <Route path="/wed" element={<Wed email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
-            <Route path="/shop" element={<Shop email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
-            <Route path="/profile" element={<Profile email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
-          </Route>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />}>
+              <Route path="/homein" element={<Homein email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+              <Route path="/wed" element={<Wed email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+              <Route path="/shop" element={<Shop email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+              <Route path="/profile" element={<Profile email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+            </Route>
 
-        </Routes>
-      </BrowserRouter>
-    </div>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </PrimeReactProvider>
   );
 }
 
