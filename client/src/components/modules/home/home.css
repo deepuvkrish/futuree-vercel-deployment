@@ -190,6 +190,8 @@
         top: 80px;
         visibility: visible;
         opacity: 1;
+        z-index: 3;
+
       }
       
       .profileCard .menu::before {
@@ -252,5 +254,19 @@
       .profileCard .menu ul li:hover a {
         color: #ff5d94;
       }
+      .home-container{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+      }
+      .home-container h1{
+        font-size:50px
+      }
+
+
       
 }

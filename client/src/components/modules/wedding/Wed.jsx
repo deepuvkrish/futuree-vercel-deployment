@@ -23,6 +23,13 @@ import {
     nonveg,
     veg,
     temples,
+    audit,
+    videog,
+    hotels,
+    pools,
+    drones,
+    auditorium,
+    temple
 } from "../../constants/assets";
 
 
@@ -154,6 +161,9 @@ const Wed = () => {
                                                 <div className="plant">
                                                     <DisplayLottie lottiename={plant} />
                                                 </div>
+                                                <div className="drone">
+                                                    <DisplayLottie lottiename={drones} />
+                                                </div>
                                                 <div className="couples">
                                                     <DisplayLottie lottiename={couples} />
                                                 </div>
@@ -163,27 +173,39 @@ const Wed = () => {
                                                 <div className="plantwo">
                                                     <DisplayLottie lottiename={plantwo} />
                                                 </div>
-
+                                                <div className="pool">
+                                                    <img src={pools} alt="swimming pools" />
+                                                </div>
                                                 <div className="card flex flex-row flex-wrap gap-2 w-100 h-3 chips-custom" >
-                                                    <Chip label="Destination" image={destin} alt='destination wedding image' className="chips chip-destination" />
-                                                    <Chip label="Vegitarian" image={veg} className="chips chip-veg" />
-                                                    <Chip label="Non veg" image={nonveg} className="chips chip-nonveg" />
+                                                    <Chip label="Destination" image={destin} alt='destination wedding image' removable className="chips chip-destination" />
+                                                    <Chip label="Vegitarian" image={veg} removable className="chips chip-veg" />
+                                                    <Chip label="Non veg" image={nonveg} removable className="chips chip-nonveg" />
                                                     <Chip label="Cocktails" image={cocktails} removable className="chips chip-drinks" />
+                                                    <Chip label="PhotoCoverage" image={videog} removable className="chips chip-video" />
+                                                    <Chip label="Resorts" image={hotels} removable className="chips chip-hotel" />
+
                                                 </div>
                                             </div>
                                         </MDBTabsPane>
                                         <MDBTabsPane open={basicActive === 'profile'}>
                                             "Comprises of extravagant wedding plans"
                                             <div className="destination wedding">
+                                                <div className="drone">
+                                                    <DisplayLottie lottiename={drones} />
+                                                </div>
                                                 <div className="couples">
                                                     <DisplayLottie lottiename={couples} />
                                                 </div>
+                                                <div className="pools">
+                                                    <DisplayLottie lottiename={auditorium} />
+                                                </div>
 
                                                 <div className="card flex flex-row flex-wrap gap-2 w-100 h-3 chips-custom" >
-                                                    <Chip label="Destination" image={destin} alt='destination wedding image' className="chips chip-destination" />
-                                                    <Chip label="Vegitarian" image={veg} className="chips chip-veg" />
-                                                    <Chip label="Non veg" image={nonveg} className="chips chip-nonveg" />
+                                                    <Chip label="Auditorium" image={audit} alt='auditorium wedding image' removable className="chips chip-audit" />
+                                                    <Chip label="Vegitarian" image={veg} removable className="chips chip-veg" />
+                                                    <Chip label="Non veg" image={nonveg} removable className="chips chip-nonveg" />
                                                     <Chip label="Cocktails" image={cocktails} removable className="chips chip-drinks" />
+                                                    <Chip label="PhotoCoverage" image={videog} removable className="chips chip-video" />
                                                 </div>
                                             </div>
                                         </MDBTabsPane>
@@ -193,10 +215,15 @@ const Wed = () => {
                                                 <div className="couples">
                                                     <DisplayLottie lottiename={couples} />
                                                 </div>
+                                                <div className="temple">
+                                                    <DisplayLottie lottiename={temple} />
+                                                </div>
 
                                                 <div className="card flex flex-row flex-wrap gap-2 w-100 h-3 chips-custom" >
-                                                    <Chip label="Temple" image={temples} alt='temple wedding image' className="chips chip-temple" />
-                                                    <Chip label="Vegitarian" image={veg} className="chips chip-veg" />
+                                                    <Chip label="Temple" image={temples} alt='temple wedding image' removable className="chips chip-temple" />
+                                                    <Chip label="Auditorium" image={audit} alt='auditorium wedding image' removable className="chips chip-audit" />
+                                                    <Chip label="Vegitarian" image={veg} removable className="chips chip-veg" />
+                                                    <Chip label="PhotoCoverage" image={videog} removable className="chips chip-video" />
                                                 </div>
                                             </div>
                                         </MDBTabsPane>
@@ -208,9 +235,11 @@ const Wed = () => {
                                                 </div>
 
                                                 <div className="card flex flex-row flex-wrap gap-2 w-100 h-3 chips-custom" >
-                                                    <Chip label="Temple" image={temples} alt='temple wedding image' className="chips chip-temple" />
-                                                    <Chip label="Vegitarian" image={veg} className="chips chip-veg" />
-                                                    <Chip label="Non veg" image={nonveg} className="chips chip-nonveg" />
+                                                    <Chip label="Temple" image={temples} alt='temple wedding image' removable className="chips chip-temple" />
+                                                    <Chip label="Auditorium" image={audit} alt='auditorium wedding image' removable className="chips chip-audit" />
+                                                    <Chip label="Vegitarian" image={veg} removable className="chips chip-veg" />
+                                                    <Chip label="Non veg" image={nonveg} removable className="chips chip-nonveg" />
+                                                    <Chip label="PhotoCoverage" image={videog} removable className="chips chip-video" />
                                                 </div>
                                             </div>
                                         </MDBTabsPane>

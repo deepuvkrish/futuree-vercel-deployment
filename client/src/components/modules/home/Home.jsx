@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { SignedIn, SignedOut, SignInButton, SignOutButton, useUser } from '@clerk/clerk-react'
 import LandingIn from './LandingIn'
 import Landing from './Landing'
+import Homein from './Homein'
 const Home = (props) => {
     const { loggedIn, email } = props
     const navigate = useNavigate()

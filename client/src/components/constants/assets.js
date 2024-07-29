@@ -1,6 +1,21 @@
 import loginbckimg from '../../assets/images/sd-black.png'
 import logo from '../../assets/images/logo.png'
+import audit from '../../assets/images/audit.png'
 import flogo from '../../assets/images/futuralog.png'
+import weddone from '../../assets/images/destweed.jpeg'
+import destin from '../../assets/images/destin.jpg'
+import veg from '../../assets/images/veg.jpg'
+import nonveg from '../../assets/images/nonveg.jpg'
+import cocktails from '../../assets/images/cocktails.jpg'
+import temples from '../../assets/images/temple.jpg'
+import videog from '../../assets/images/videography.jpg'
+import hotels from '../../assets/images/hotels.jpg'
+import pools from '../../assets/images/pools.gif'
+
+
+
+
+
 import airplane from '../../assets/lottie/flight.json'
 import travel from '../../assets/lottie/travel.json'
 import travelwall from '../../assets/lottie/travelwall.json'
@@ -10,14 +25,16 @@ import plant from '../../assets/lottie/plant.json'
 import plantwo from '../../assets/lottie/plantwo.json'
 import flower from '../../assets/lottie/flower.json'
 import couples from '../../assets/lottie/couples.json'
-import weddone from '../../assets/images/destweed.jpeg'
-import destin from '../../assets/images/destin.jpg'
-import veg from '../../assets/images/veg.jpg'
-import nonveg from '../../assets/images/nonveg.jpg'
-import cocktails from '../../assets/images/cocktails.jpg'
-import temples from '../../assets/images/temple.jpg'
+import drones from '../../assets/lottie/drones.json'
+import auditorium from '../../assets/lottie/auditorium.json'
+import temple from '../../assets/lottie/temple.json'
+
 
 export {
+    auditorium,
+    videog,
+    pools,
+    hotels,
     loginbckimg,
     logo,
     flogo,
@@ -36,6 +53,9 @@ export {
     nonveg,
     veg,
     temples,
+    audit,
+    drones,
+    temple,
 }
 
 

@@ -38,7 +38,7 @@
         font-weight: 800;
         color: white;
     }
-    .list-group-item {
+    .list-group-item , .menu-profile {
         position: relative;
         display: block;
         padding: var(--mdb-list-group-item-padding-y) var(--mdb-list-group-item-padding-x);
@@ -46,9 +46,29 @@
         background-color: #00000021 !important;
         border: var(--mdb-list-group-border-width) solid var(--mdb-list-group-border-color);
     }
+    .menu-profile span{
+        text-align: center;
+        color:rgb(52, 52, 52);
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .profile-line{
+        border-bottom: 1px solid rgb(122, 121, 121);
+
+    }
+    .menu-profile svg{
+        padding-right: 20px;
+    }
+    .menu-profile li{
+        margin-block:10px;
+    }
     .badge-success {
         background-color: #029620 !important;
         color: #0d6832;
     }
-
+    .useravatar{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
 }

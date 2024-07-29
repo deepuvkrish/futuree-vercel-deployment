@@ -115,11 +115,42 @@
         bottom: 0px;
         z-index:2;
     }
+    .drone{
+        position: absolute;
+        width: 10%;
+        top: 10%;
+        left: 50%;
+        z-index:2;
+    }
+    .pools{
+        position: absolute;
+        width: 55%;
+        top: -80px;
+        right: 0%;
+        z-index: 2;
+    }
+    .pool{
+        position: absolute;
+        width: 10%;
+        bottom: 0px;
+        right: 20%;
+        z-index: 2;
+    }
+    .pool img{
+        width:240px
+    }
+    .temple{
+        position: absolute;
+        width: 30%;
+        bottom: 0px;
+        right: 5%;
+        z-index: 2;
+    }
     .plantwo{
         position: absolute;
         width: 20%;
         top: 0px;
-        right: 0px;
+        right: -115px;
         z-index:2;
 
     }
@@ -181,6 +212,23 @@
         padding: 5px;
         border-radius: 20px;    
     }
+    .chip-audit{
+        background: #ffe6f8;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+    .chip-video{
+        background: #b9b9b9;
+        padding: 5px;
+        border-radius: 20px;    
+    } 
+    .chip-hotel{
+        background: #e6fcff;
+        padding: 5px;
+        border-radius: 20px;    
+    }
+
+
     .chips-custom{
         height: 45px !important;
         align-items: center;
