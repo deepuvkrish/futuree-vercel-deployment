@@ -4,8 +4,8 @@ import { SignedOut, SignOutButton, useUser } from '@clerk/clerk-react'
 import { Outlet, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
-import {  } from '@fortawesome/free-regular-svg-icons';
+import { faPersonWalkingArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser } from '@fortawesome/free-regular-svg-icons';
 import Profiles from "../profile/Profiles";
 
 const LandingIn = (props) => {
@@ -33,7 +33,25 @@ const LandingIn = (props) => {
                 </div>
                 <div className="profileCard">
                     <Profiles/>
-                   
+                    {/* <div className="profile" onClick={menuToggle}>
+                        <img src={user.imageUrl} className="useravatar" />
+                    </div>
+                    <div className={profile} onClick={menuHide} onBlur={menuHide}>
+                        <h3>Welcome<br />
+                            <span>{user ? <div> {user.primaryEmailAddress.emailAddress}</div> : null}</span></h3>
+                        <ul>
+                            <li>
+                                <FontAwesomeIcon icon={faCircleUser} /> <NavLink to='/profile'>My Profile</NavLink>
+                            </li>
+                            <li>
+                                <FontAwesomeIcon icon={faPersonWalkingArrowRight} />
+                                <SignOutButton>
+                                    <input className='signout' type="button" value={'Log out'} />
+                                </SignOutButton>
+                            </li>
+
+                        </ul>
+                    </div> */}
                 </div>
 
 

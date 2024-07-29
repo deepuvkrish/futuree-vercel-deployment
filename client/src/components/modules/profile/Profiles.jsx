@@ -74,7 +74,9 @@ const Profiles = (props) => {
                     <FontAwesomeIcon icon={faCircleUser} /> <NavLink to='/profile'>My Profile</NavLink>
                 </MenuItem>
                 <MenuItem onClick={handleClose} type="button" value={'Log out'}>
-                    <FontAwesomeIcon icon={faPersonWalkingArrowRight} />Logout
+                    <FontAwesomeIcon icon={faPersonWalkingArrowRight} />                    <SignOutButton>
+                        <input className='signout' type="button" value={'Log out'} />
+                    </SignOutButton>
                 </MenuItem>
             </Menu>
         </div >
