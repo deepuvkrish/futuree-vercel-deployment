@@ -15,7 +15,6 @@ const Landing = () => {
                 <DisplayLottie lottiename={travel} />
             </div>
             <div className="log-box">
-                {/* The children of the SignedOut component are rendered only when the user is signed out from the app. In this case, the app will render a SignInButton */}
                 <SignInButton>
                     <input className='inputButton' type="button" value={'Log in to Continue'} />
                 </SignInButton>

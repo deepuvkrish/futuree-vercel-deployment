@@ -1,5 +1,81 @@
 @media only screen and (max-width:768px){
+  .landing{
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+    width:100svw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  }
+  .inputButton{
+    background-color: hsl(218, 41%, 15%) !important;
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(219, 50%, 27%) 15%,
+        hsl(218, 45%, 23%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%) !important;
+    border-radius: 50px !important;
+    font-size: 18px !important;
+    padding: 12px 50px;
+    color: white;
+  }
+  .signout{
+    background: transparent;
+    border: none;
+  }
+  .log-box{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    border-radius: 10px;
+    /* background-color: hsla(0, 0%, 0%, 0.7) !important; */
+    backdrop-filter: saturate(200%) blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  .futuralogo{
+    position: relative;
+    width: 40%;
+  }
+  .log-lotties {
+    position: absolute;
+    width: 100%;
+    right: -1px;
+    z-index: 3;
+    top: -18px;
+}
+  .logicon{
+    position: absolute;
+    color: "#ffffff";
+    right: 15%;
+}
 
+  
 }
 
 
@@ -96,6 +172,7 @@
         position: absolute;
         width: 40%;
         right: 61px;
+       
     }
     .bodyContent{
         width: 100vw;
