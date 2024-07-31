@@ -11,6 +11,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { } from '@fortawesome/free-brands-svg-icons';
 import { faPersonWalkingArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faCircleUser } from '@fortawesome/free-regular-svg-icons';
+
+
+
+
+
+
 const Profiles = (props) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -30,25 +36,6 @@ const Profiles = (props) => {
 
     return (
         <div>
-            {/* <div className="profile" onClick={menuToggle}>
-                        <img src={user.imageUrl} className="useravatar" />
-                    </div>
-                    <div className={profile} onClick={menuHide} onBlur={menuHide}>
-                        <h3>Welcome<br />
-                            <span>{user ? <div> {user.primaryEmailAddress.emailAddress}</div> : null}</span></h3>
-                        <ul>
-                            <li>
-                                <FontAwesomeIcon icon={faCircleUser} /> <NavLink to='/profile'>My Profile</NavLink>
-                            </li>
-                            <li>
-                               
-                                <SignOutButton>
-                                    <input className='signout' type="button" value={'Log out'} />
-                                </SignOutButton>
-                            </li>
-
-                        </ul>
-                    </div> */}
 
             <Button
                 id="basic-button"
@@ -79,6 +66,8 @@ const Profiles = (props) => {
                     </SignOutButton>
                 </MenuItem>
             </Menu>
+
+
         </div >
     );
 }

@@ -173,4 +173,10 @@
     border: 1px solid grey;
     padding-left: 8px;
   }
+
+  .MuiBox-root{
+    width: 98%;
+    justify-content: space-between;
+    padding-inline: 10px;
+  }
   

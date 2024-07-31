@@ -8,13 +8,14 @@ import { itemData } from '../constants';
 const Gal = () => {
     return (
         <Box sx={{ width: 500, height: 650, overflowY: 'hide' }}>
-            <ImageList variant="masonry" cols={3} gap={8}>
+            <ImageList variant="masonry" cols={4} gap={8}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img
                             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=248&fit=crop&auto=format`}
                             alt={item.title}
+                            className={item.class}
                             loading="lazy"
                         />
                         <ImageListItemBar position="below" title={item.author} />

@@ -343,6 +343,33 @@
       .home-container h1{
         font-size:50px
       }
+      .intro h1{
+        font-size:100px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+      }
+      .squee{
+      animation: 5s linear imgrotate infinite;
+    }
+    .css-l086p4-MuiImageListItem-root .MuiImageListItem-img{
+      transition: 700ms;
+      filter:grayscale(1) blur(.5px);
+    }
+    .css-l086p4-MuiImageListItem-root .MuiImageListItem-img:hover{
+      transform: scale(1.2);
+      border-radius: 0px 20px 0px 20px;
+      filter: grayscale(0) drop-shadow(1px 1px 35px rgba(191, 237, 255, 0.543));
+      z-index: 2;
+    }
+    @keyframes imgrotate{
+      0%{
+        transform: rotateY(0deg);
+      }
+      100%{
+        transform: rotateY(360deg);
+      }
+    }
 
 
       

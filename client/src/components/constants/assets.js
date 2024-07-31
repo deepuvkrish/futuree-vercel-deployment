@@ -14,8 +14,6 @@ import pools from '../../assets/images/pools.gif'
 
 
 
-
-
 import airplane from '../../assets/lottie/flight.json'
 import travel from '../../assets/lottie/travel.json'
 import travelwall from '../../assets/lottie/travelwall.json'
@@ -28,6 +26,27 @@ import couples from '../../assets/lottie/couples.json'
 import drones from '../../assets/lottie/drones.json'
 import auditorium from '../../assets/lottie/auditorium.json'
 import temple from '../../assets/lottie/temple.json'
+import love from '../../assets/lottie/love.json'
+import love2 from '../../assets/lottie/love2.json'
+
+
+import img1 from '../../assets/images/s/i1.jpg'
+import img2 from '../../assets/images/s/i2.jpg'
+import img3 from '../../assets/images/s/i3.jpg'
+import img4 from '../../assets/images/s/i4.jpg'
+import img5 from '../../assets/images/s/i5.jpg'
+import img6 from '../../assets/images/s/i6.jpg'
+import img7 from '../../assets/images/s/i7.jpeg'
+import img8 from '../../assets/images/s/i8.jpeg'
+import img9 from '../../assets/images/s/i9.jpg'
+import img10 from '../../assets/images/s/i10.jpg'
+import img11 from '../../assets/images/s/i11.jpg'
+import img12 from '../../assets/images/s/i12.jpg'
+import img13 from '../../assets/images/s/i13.jpg'
+import img14 from '../../assets/images/s/i14.png'
+import img15 from '../../assets/images/s/i15.png'
+import img17 from '../../assets/images/s/i17.jpg'
+
 
 
 export {
@@ -56,6 +75,25 @@ export {
     audit,
     drones,
     temple,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img17,
+    love,
+    love2
+
 }
 
 
