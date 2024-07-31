@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './components/modules/signin/Login';
-import Register from './components/modules/signin/Register';
+
 import Home from './components/modules/home/Home';
 import Wed from './components/modules/wedding/Wed';
 import Shop from './components/modules/shopping/Shop';
@@ -18,6 +17,8 @@ import '@fontsource/roboto/700.css';
 
 
 import { PrimeReactProvider } from "primereact/api";
+
+
 function App() {
 
   const [loggedIn, setLoggedIn] = useState(false)
