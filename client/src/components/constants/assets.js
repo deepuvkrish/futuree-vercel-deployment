@@ -46,10 +46,22 @@ import img13 from '../../assets/images/s/i13.jpg'
 import img14 from '../../assets/images/s/i14.png'
 import img15 from '../../assets/images/s/i15.png'
 import img17 from '../../assets/images/s/i17.jpg'
+import orange from '../../assets/images/s/orange.png'
+import lavender from '../../assets/images/s/lavender.png'
+import yellow from '../../assets/images/s/yellow.png'
+import pink from '../../assets/images/s/pink.png'
+import green from '../../assets/images/s/green.png'
+import blue from '../../assets/images/s/blue.png'
 
 
 
 export {
+    blue,
+    green,
+    pink,
+    yellow,
+    lavender,
+    orange,
     auditorium,
     videog,
     pools,

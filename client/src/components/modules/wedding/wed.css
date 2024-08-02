@@ -1,15 +1,35 @@
 @media only screen and (min-width:768px){
-    .wedd-content{
+    .nav-tabs .nav-link:hover {
+        background-color: #63265475 !important;
+        border-color: transparent;
+        color: #ffffff;
+        border-radius: 10px;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: #d20085 !important;
+        border-color: #ff46bb !important;
+    }
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .list-group-item {
+        padding:0 !important;
+        border:none !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.23) !important;
+    }
+    .wed-content{
         width: 100%;
-        background: rgba(255, 255, 255, 0);
-        min-height: 100vh;
+        min-height: 100%;
         overflow: hidden;
     }
     .wed-options{
-        background: white;
+        background: #ffffff63;  
         margin-inline: 50px;
         margin-block: 50px;
-        color:black;
+        color: #1d1d1d;
+        border-radius: 50px;
     }
     .wed-cards{
         width: 300px;
@@ -100,8 +120,14 @@
     .list-group-light .active {
         border: none;
         border-radius: var(--mdb-list-group-light-active-border-radius);
-        background-color: rgb(191, 233, 255) !important;
-        color: var(--mdb-list-group-light-active-color);
+        background-color: rgb(108, 18, 75) !important;
+        color: white !important;
+    }
+    .list-group-light .active a {
+        color: white !important;
+    }
+    .list-c a{
+        color: rgb(48, 48, 48);
     }
     .wedding{
         display: flex;
@@ -227,11 +253,11 @@
         padding: 5px;
         border-radius: 20px;    
     }
-
-
-    .chips-custom{
+    .chips-custom {
         height: 45px !important;
         align-items: center;
+        background: #6c124b17 !important;
+        padding-inline: 30px;
     }
 
 }

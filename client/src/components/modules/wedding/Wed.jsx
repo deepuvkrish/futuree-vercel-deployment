@@ -26,7 +26,6 @@ import {
     audit,
     videog,
     hotels,
-    pools,
     drones,
     auditorium,
     temple
@@ -127,25 +126,25 @@ const Wed = () => {
                     <MDBTabsPane open={justifyActive === 'tab2'}>
                         <div className="wedLists">
                             <MDBRow className="w-100">
-                                <MDBCol size={3}>
+                                <MDBCol size={3} className="justify-center">
                                     <MDBListGroup light small>
-                                        <MDBTabs>
-                                            <MDBListGroupItem action active={basicActive === 'home'} noBorders className='px-3'>
+                                        <MDBTabs className="list-c">
+                                            <MDBListGroupItem action active={basicActive === 'home'}  >
                                                 <MDBTabsItem>
                                                     <MDBTabsLink onClick={() => handleBasicClick('home')}>Plan Bhandirvan</MDBTabsLink>
                                                 </MDBTabsItem>
                                             </MDBListGroupItem>
-                                            <MDBListGroupItem action active={basicActive === 'profile'} noBorders className='px-3'>
+                                            <MDBListGroupItem action active={basicActive === 'profile'}  >
                                                 <MDBTabsItem>
                                                     <MDBTabsLink onClick={() => handleBasicClick('profile')}>Plan Indraprasth</MDBTabsLink>
                                                 </MDBTabsItem>
                                             </MDBListGroupItem>
-                                            <MDBListGroupItem action active={basicActive === 'messages'} noBorders className='px-3'>
+                                            <MDBListGroupItem action active={basicActive === 'messages'}  >
                                                 <MDBTabsItem>
                                                     <MDBTabsLink onClick={() => handleBasicClick('messages')}>Plan Vaikunt</MDBTabsLink>
                                                 </MDBTabsItem>
                                             </MDBListGroupItem>
-                                            <MDBListGroupItem action active={basicActive === 'settings'} noBorders className='px-3'>
+                                            <MDBListGroupItem action active={basicActive === 'settings'}  >
                                                 <MDBTabsItem>
                                                     <MDBTabsLink onClick={() => handleBasicClick('settings')}>Plan Kailash</MDBTabsLink>
                                                 </MDBTabsItem>
@@ -172,9 +171,6 @@ const Wed = () => {
                                                 </div>
                                                 <div className="plantwo">
                                                     <DisplayLottie lottiename={plantwo} />
-                                                </div>
-                                                <div className="pool">
-                                                    <img src={pools} alt="swimming pools" />
                                                 </div>
                                                 <div className="card flex flex-row flex-wrap gap-2 w-100 h-3 chips-custom" >
                                                     <Chip label="Destination" image={destin} alt='destination wedding image' removable className="chips chip-destination" />
